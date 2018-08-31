@@ -1,0 +1,58 @@
+.one{
+  display: flex;
+}
+.two{
+  display: flex;
+
+}
+.three{
+  display: flex;
+}
+.four{
+  display: flex;
+}
+@media only screen and (min-width:425px) and (max-width:768px) {
+
+.two{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.one{
+  display: flex;
+}
+.two{
+  display: flex;
+
+}
+.four{
+  display: flex;
+  flex-wrap: wrap;
+}
+.four,img{
+  margin: 5px;
+}
+
+}
+@@media only screen and (max-width:424px) {
+  .two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .one{
+    display: flex;
+  }
+  .two{
+    display: flex;
+
+  }
+  .four{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
